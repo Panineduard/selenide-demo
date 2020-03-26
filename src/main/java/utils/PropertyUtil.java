@@ -15,7 +15,7 @@ public class PropertyUtil {
         Properties properties = new Properties();
 
         try {
-            FileInputStream fileInputStream = new FileInputStream("src/main/resources/config.properties");
+            FileInputStream fileInputStream = new FileInputStream("src/resources/config.properties");
             properties.load(fileInputStream);
         } catch (IOException e) {
             e.printStackTrace();
